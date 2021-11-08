@@ -35,7 +35,7 @@ import LoginForm from './Compenents/LoginForm'
          }
      
   return (
-    <div className="App">
+    <div className="App">//className in App olması index.js de kşi App dosyasından dolayı çakışıyor hata giderilmesi için buradaki sınıfı değiştirin!
       
      {(user.email != "")}?(
          <div className="welcome">
