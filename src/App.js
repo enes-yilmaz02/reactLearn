@@ -13,7 +13,7 @@ import LoginForm from './Compenents/LoginForm'
          =>{
              console.Log(details);
 
-             if(details.email== adminUser.email && details.password==adminUser.password)
+             if(details.email=== adminUser.email && details.password===adminUser.password)
              {
                  console.log("Logged in");
                  setUser(
@@ -37,7 +37,7 @@ import LoginForm from './Compenents/LoginForm'
   return (
     <div className="Genelly">
       
-     {(user.email != "")}?(
+     {(user.email !== "")}?(
          <div className="welcome">
           
           <h2>Welcome , <span>{user.name}</span></h2>
